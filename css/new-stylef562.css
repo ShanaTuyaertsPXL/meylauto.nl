@@ -1,0 +1,602 @@
+@font-face {
+    font-family: 'NunitoSansBold';
+    src: url('../fonts/NunitoSansBold.eot');
+    src: url('../fonts/NunitoSansBold.eot') format('embedded-opentype'),
+         url('../fonts/NunitoSansBold.html') format('woff2'),
+         url('../fonts/NunitoSansBold.woff') format('woff'),
+         url('../fonts/NunitoSansBold.ttf') format('truetype'),
+         url('../fonts/NunitoSansBold.svg#NunitoSansBold') format('svg');
+}
+@font-face {
+    font-family: 'NunitoSansLight';
+    src: url('../fonts/NunitoSansLight.eot');
+    src: url('../fonts/NunitoSansLight.eot') format('embedded-opentype'),
+         url('../fonts/NunitoSansLight.html') format('woff2'),
+         url('../fonts/NunitoSansLight.woff') format('woff'),
+         url('../fonts/NunitoSansLight.ttf') format('truetype'),
+         url('../fonts/NunitoSansLight.svg#NunitoSansLight') format('svg');
+}
+@font-face {
+    font-family: 'NunitoSansRegular';
+    src: url('../fonts/NunitoSansRegular.eot');
+    src: url('../fonts/NunitoSansRegular.eot') format('embedded-opentype'),
+         url('../fonts/NunitoSansRegular.html') format('woff2'),
+         url('../fonts/NunitoSansRegular.woff') format('woff'),
+         url('../fonts/NunitoSansRegular.ttf') format('truetype'),
+         url('../fonts/NunitoSansRegular.svg#NunitoSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'MundialLight';
+    src: url('../fonts/MundialLight.eot');
+    src: url('../fonts/MundialLight.eot') format('embedded-opentype'),
+         url('../fonts/MundialLight.html') format('woff2'),
+         url('../fonts/MundialLight.woff') format('woff'),
+         url('../fonts/MundialLight.ttf') format('truetype'),
+         url('../fonts/MundialLight.svg#MundialLight') format('svg');
+}
+.detail-top-heading {
+	padding: 80px 0 60px;
+	background: #f3f3f3;
+}
+.detail-top-heading h2{
+	font-size:41px;
+	font-family: 'NunitoSansBold';
+}
+.detail-top-heading h4{
+	font-family: 'NunitoSansLight';
+	color: #9d9d9d;
+}
+.detail-top-heading button{
+	background: #283649;
+    border-color: #283649;
+    min-width: auto;
+    margin-right: 30px;
+    font-family: 'NunitoSansBold';
+    padding: 17px 0;
+}
+/************slider**********/
+.aanbod-dtl-slider{
+	background: #f3f3f3;
+}
+.slider-image, .thumb-image{
+	padding: 4px;
+}
+.slider-image .swiper-button-prev{
+	left: 0;
+}
+.slider-image .swiper-button-next{
+	right: 0;
+}
+.common-arrow{
+	background-image: none !important;
+	width: 46px;
+	height: 46px;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.common-arrow img{
+	width: 12px;
+}
+/****************table***********/
+.detail-car-content{
+	background: #f3f3f3;
+}
+.car-content-wrap{
+	padding: 4px;
+}
+.car-content-wrap .table-responsive{
+	background: #fff;
+}
+.car-content-wrap table{
+	width: 100%;
+}
+.car-content-wrap h4{
+	white-space: nowrap;
+}
+.car-content-wrap h4, .car-content-wrap h6{
+	color: #1c1c1c;
+	font-family: 'NunitoSansBold';
+}
+.car-content-wrap h6 span{
+	color: #cecece;
+}
+.car-content-wrap tr{
+	border-bottom: 2px solid #f3f3f3;
+}
+.car-content-wrap td{
+	padding: 52px 30px;
+}
+/*======price===========*/
+.block-wrap{
+	padding: 4px;
+}
+.price-block{
+	background: #fff;
+	padding: 30px 40px;
+}
+.price-block h4{
+	font-size: 22px;
+	color: #9d9d9d;
+	font-family: 'MundialLight';
+	letter-spacing: 1px;
+}
+.price-block h3{
+	font-size: 30px;
+	color: #1c1c1c;
+	font-family: 'MundialLight';
+	letter-spacing: 1px;
+}
+.price-block .mw-100{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	margin-right: 25px;
+}
+.block-wrap .divider{
+	margin: 0;
+	border-top:2px solid #f3f3f3;
+}
+.price-block h2{
+	font-size: 51px;
+	color: #1c1c1c;
+	font-family: 'MundialLight';
+	letter-spacing: 1px;
+}
+.txt-btn{
+	font-family: 'MundialLight';
+	font-size: 24px;
+	color: #1c1c1c;
+	letter-spacing: 0.5px;
+}
+.txt-btn img{
+	width: 16px;
+	margin-left: 40px;
+}
+.block-wrap .custom-row{
+	margin: 8px -4px;
+}
+.block-wrap .custom-row .common-btn{
+	max-width: 100%;
+	min-width: auto;
+	border-color: #283649;
+	background: #283649;
+	font-family: 'NunitoSansBold';
+	font-size: 16px;
+	padding: 17px 0;
+	color: #ffffff;
+	-webkit-transition-duration: 0.9s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-box-shadow: 0px 0px 0 0 #000c inset, 0px 0px 0 #000c inset;
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.block-wrap .black-btn{
+	border-color: #1e1e1e;
+	background: #1e1e1e;
+}
+.block-wrap .common-btn img{
+	width: 14px;
+    height: 14px;
+    margin-right: 7px;
+}
+/*====setp form====*/
+.block-wrap .common-btn:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    bottom: -20px;
+    margin: auto;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff;
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.block-wrap .common-btn.btn-active:after {
+    opacity: 1;
+}
+.common-form{
+	background: #1e1e1e;
+	padding: 40px 30px;
+	margin-bottom: -64px;
+	display: none;
+}
+.common-form.form-active{
+	display: block;
+}
+.common-form h3{
+	color: #fff;
+	font-family: 'NunitoSansRegular';
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.btn-wrap{
+	max-width: 520px;
+	width: 100%;
+	margin-top: 20px;
+}
+.common-form button{
+	font-family: 'NunitoSansRegular';
+	padding: 17px 0;
+	background: #343434;
+	border-color: #343434;
+	min-width: auto;
+	/*max-width: 100%;*/
+	margin-bottom: 10px;
+}
+.common-form .reservation-btn{
+	background: #283649;
+	border-color: #283649;
+	display: block;
+}
+.common-form .reservation-btn:hover{
+	border-color: #000c;
+}
+.form-styl {
+    resize: none;
+    border-radius: 0;
+   	font-family: 'NunitoSansRegular';
+    border: 0px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    padding: 0;
+    height: 40px;
+    line-height: 38px;
+   	opacity: 0.5 !important;
+    background-color: transparent !important;
+}
+.form-styl:focus {
+	box-shadow: none;
+	border-color: #fff;
+	color:#fff;
+	opacity:1 !important;
+	background: transparent;
+}
+.form-styl:placeholder {
+	color: #fff;
+	opacity: 1;
+}
+.form-styl:-ms-input-placeholder {
+	color: #fff;
+	opacity: 1;
+}
+.form-styl::placeholder {
+	color: #fff;
+	opacity: 1;
+}
+.common-form select option{
+	background-color: #1e1e1e;
+}
+.common-form .form-group {
+    margin-bottom: 40px;
+}
+.common-form ul{
+	margin: 0;
+	list-style-type: none;
+}
+.common-form li, .right-block h6{
+	font-family: 'NunitoSansRegular';
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.common-form li span, .right-block h6 span{
+	opacity: 0.5;
+	/*display: block;*/
+	line-height: 24px;
+}
+.common-form select{
+	appearance: none;
+    -webkit-appearance: none;
+    background: url(../images/down_arrow.png) transparent no-repeat 95% center/8px !important;
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+/*=====step2=====*/
+.step2-form table{
+	margin-bottom: 40px;
+}
+.step2-form td:first-child{
+	width: 20%;
+	padding-bottom: 20px;
+}
+.icon-wrap{
+	display: inline-block;
+	width: 15%;
+}
+.each-block, .each-reserveren-list{
+	padding-bottom: 20px;
+}
+.step2_area .common-btn{
+	margin-right: 5px;
+}
+.form-checkbox {
+    position: relative;
+    padding-left: 60px;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'NunitoSansRegular';
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    width: 75%;
+    vertical-align: middle;
+}
+.form-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+   	position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ffff;
+    border: 2px solid #fff;
+}
+.form-checkbox input:checked ~ .checkmark {
+  	background-color: #283649;
+}
+.form-checkbox .checkmark:after {
+  	content: "";
+  	position: absolute;
+  	display: none;
+}
+.step2_area .each-reserveren-list img{
+	width: 70px;
+}
+/**********************tab sec******************/
+.detail-tab-sec{
+	background: #f3f3f3;
+}
+.detail-tab-sec .nav-tabs{
+	border-bottom: 0;
+	margin-top: 4px;
+}
+.detail-tab-sec .nav-item{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'NunitoSansRegular';
+    width: 33.33%;
+    padding: 0 4px !important;
+    border: 0;
+    margin-bottom: 0;
+}
+.detail-tab-sec .nav-tabs .nav-link{
+	border-radius: 0;
+	padding: 17px 5px;
+	border: 0;
+	background-color: #fff;
+	height: 100%;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+.detail-tab-sec .nav-tabs .nav-item.show .nav-link, .detail-tab-sec .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #1e1e1e;
+}
+/*====tab content===*/
+.detail-tab-sec .tab-content h3{
+	color: #1e1e1e;
+	font-size: 30px;
+	font-family: 'NunitoSansBold';
+	margin-bottom: 30px;
+	letter-spacing: 0.75px;
+}
+.detail-tab-sec .tab-content{
+	padding: 100px 0;
+}
+.detail-tab-sec .tab-content p{
+	font-size: 16px;
+	font-family: 'NunitoSansRegular';
+	color: #1e1e1e;
+	line-height: 28px;
+}
+/*====accrodian=====*/
+.tab-content-wrap{
+	background: #fff;
+}
+.tab-product{
+	margin-top: 50px;
+}
+.tab-product .card-header a{
+	font-family: 'NunitoSansBold';
+	font-size: 16px;
+	color: #1c1c1c;
+	position: relative;
+}
+.tab-product .card-header a:after{
+	position: absolute;
+    top: 2px;
+    right: -30px;
+    width: 13px;
+    height: 20px;
+    content: '';
+    background-image: url(../images/minus.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tab-product .card-header a.collapsed:after {
+   	background-image: url(../images/plus.svg);
+    width: 12px;
+    height: 12px;
+    top: 6px;
+}
+.tab-product .card {
+    border: 0;
+    background: transparent;
+    text-align: center;
+}
+.tab-product .card-header {
+    border: 0;
+    background-color: transparent;
+    padding: 20px 0 0;
+}
+.tab-product .card-link h6 {
+	font-size: 16px;
+    font-family: 'NunitoSansBold';
+    color: #1c1c1c;
+    text-align: center;
+}
+.tab-product .card-body{
+	padding: 20px 0 0;
+}
+.card-img{
+	padding: 0 20%;
+}
+
+
+.step2-form, .step3-form{
+	display:none;
+}
+/*=================responive================*/
+@media(max-width: 1599.98px){
+	.detail-top-heading h2{
+		font-size: 32px;
+	}
+	.car-content-wrap h4{
+		font-size: 22px;
+	}
+	.car-content-wrap td {
+	  	padding: 32px 10px;
+	}
+	.price-block {
+	  padding: 15px 20px;
+	}
+	.price-block h4{
+		font-size: 20px;
+		letter-spacing: 0.5px;
+	}
+	.price-block h3 {
+	  font-size: 22px;
+	  letter-spacing: 0.5px;
+	}
+	.price-block h2 {
+  		font-size: 30px;
+	}
+	.price-block .mw-100 {
+	    width: 60px;
+	    height: 60px;
+	    margin-right: 15px;
+	}
+	.txt-btn{
+		font-size: 18px;
+	}
+	.txt-btn img {
+	  margin-left: 20px;
+	}
+	.common-form ul{
+		padding-left: 0;
+	}
+	.common-form h3{
+		font-size: 23px;
+	}
+	.form-checkbox{
+		padding-left: 30px;
+	}
+	.btn-wrap{
+		margin-top: 0;
+	}
+}
+@media(max-width: 1199.98px){
+	.common-form{
+		padding: 30px 15px;
+	}
+	.block-wrap .custom-row .common-btn{
+		font-size: 14px;
+	}
+	.block-wrap .common-btn img {
+	  width: 12px;
+	  height: 12px;
+	  margin-right: 4px;
+	  margin-top: -2px;
+	}
+	.detail-tab-sec .nav-item{
+		font-size: 14px;
+	}
+}
+@media (max-width: 991px){
+	.common-form{
+		margin-bottom: 0;
+	}
+	.right-block{
+		margin-top: 30px;
+	}
+	.block-wrap .custom-row .common-btn{
+		margin-bottom: 10px;
+	}
+	.detail-top-heading{
+		padding: 40px 0 30px;
+	}
+	.detail-top-heading h2 {
+	    font-size: 26px;
+	}
+	.detail-top-heading .text-right, .price-block .text-right{
+		text-align: left !important;
+		margin-top: 20px;
+	}
+	.detail-tab-sec .tab-content {
+	    padding: 40px 0;
+	}
+}
+@media(max-width: 767px){
+	.thumb-image, .block-wrap .common-btn:after{
+		display: none;
+	}
+	.slider-image{
+		padding: 0;
+	}
+	.car-content-wrap h4 {
+	    font-size: 20px;
+	}
+	.car-content-wrap td{
+		padding: 20px 15px;
+	}
+	.block-wrap{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.common-form{
+		padding: 30px 15px;
+	}
+	.form-checkbox{
+		font-size: 14px;
+	}
+	.checkmark{
+		width: 15px;
+		height: 15px;
+	}
+	.btn-wrap .pl-1{
+		padding-left: 15px !important;
+	}
+	.btn-wrap .pr-1{
+		padding-right: 15px !important;
+	}
+	.detail-tab-sec .nav-item{
+		width: 50%;
+		padding-bottom: 8px !important;
+	}
+	.detail-tab-sec .tab-content h3{
+		font-size: 20px;
+		letter-spacing: normal;
+	}
+	.step2_area .each-reserveren-list img{
+		width: 40px;
+	}
+}
